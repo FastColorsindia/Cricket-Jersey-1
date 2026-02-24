@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply overflow-x-hidden bg-white;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  :root {
+    --navy-dark: #00006c;
+    --navy-light: #000059;
+    --blue-primary: #0066cc;
+  }
+}
+
+@layer components {
+  .navy-dark {
+    @apply bg-[#00006c];
+  }
+
+  .text-navy-dark {
+    @apply text-[#00006c];
+  }
+
+  .bg-navy-dark {
+    @apply bg-[#00006c];
+  }
+}
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.8s ease-out forwards;
+    opacity: 0;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
