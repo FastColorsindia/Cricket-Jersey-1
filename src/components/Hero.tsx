@@ -5,9 +5,10 @@ const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const jerseyImages = [
-    'https://images.pexels.com/photos/3651820/pexels-photo-3651820.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    'https://images.pexels.com/photos/3651378/pexels-photo-3651378.jpeg?auto=compress&cs=tinysrgb&w=1200',
-    'https://images.pexels.com/photos/8532616/pexels-photo-8532616.jpeg?auto=compress&cs=tinysrgb&w=1200'
+    'https://ajaxexport.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-18-at-3.11.12-PM.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    'https://ajaxexport.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-18-at-3.11.13-PM.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    'https://ajaxexport.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-18-at-3.11.13-PM-2.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    'https://ajaxexport.com/wp-content/uploads/2026/03/WhatsApp-Image-2026-03-18-at-3.11.13-PM-1.jpeg?auto=compress&cs=tinysrgb&w=1200'
   ];
 
   useEffect(() => {
